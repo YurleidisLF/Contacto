@@ -1,6 +1,6 @@
 //Haz tú validación en javascript acá
 
-const from = document.getElementById("contacto");
+const formContacto = document.querySellector("form")
 const inputs = document.querySelectorAll("#contacto input");
 const mensaje = document.getElementById("mensaje");
 const botonEnviar = document.getElementById("botonEnviar");
